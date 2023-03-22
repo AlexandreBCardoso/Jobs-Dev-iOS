@@ -4,6 +4,10 @@
 
 ## User settings
 xcuserdata/
+*.xcuserstate
+*.xcbkptlist
+*.xcworkspacedata
+*.bak
 
 ## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
 *.xcscmblueprint
@@ -22,6 +26,12 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 
+## Mac OSX
+.DS_Store
+
+## Git
+*.orig
+
 ## Obj-C/Swift specific
 *.hmap
 
@@ -34,14 +44,20 @@ DerivedData/
 timeline.xctimeline
 playground.xcworkspace
 
+# Xcodegen
+project.yml
+
+# Project
+CHANGELOG.md
+
 # Swift Package Manager
 #
 # Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
 # Packages/
 # Package.pins
-# Package.resolved
-# *.xcodeproj
-#
+Package.resolved
+*.xcodeproj
+
 # Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
 # hence it is not needed unless you have added a package configuration file to your project
 # .swiftpm
@@ -57,7 +73,7 @@ playground.xcworkspace
 # Pods/
 #
 # Add this line if you want to avoid checking in source code from the Xcode workspace
-# *.xcworkspace
+*.xcworkspace
 
 # Carthage
 #
@@ -86,5 +102,3 @@ fastlane/test_output
 #
 # After new code Injection tools there's a generated folder /iOSInjectionProject
 # https://github.com/johnno1962/injectionforxcode
-
-iOSInjectionProject/
