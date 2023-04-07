@@ -45,10 +45,7 @@ timeline.xctimeline
 playground.xcworkspace
 
 # Xcodegen
-project.yml
-
-# Project
-CHANGELOG.md
+# project.yml
 
 # Swift Package Manager
 #
@@ -56,7 +53,7 @@ CHANGELOG.md
 # Packages/
 # Package.pins
 Package.resolved
-*.xcodeproj
+# *.xcodeproj
 
 # Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
 # hence it is not needed unless you have added a package configuration file to your project
