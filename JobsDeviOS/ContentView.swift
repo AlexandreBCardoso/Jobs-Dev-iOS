@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-internal struct ContentView: View {
+struct ContentView: View {
 
-    internal var body: some View {
+    var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
@@ -21,9 +21,9 @@ internal struct ContentView: View {
 
 }
 
-internal struct ContentView_Previews: PreviewProvider {
+struct ContentView_Previews: PreviewProvider {
 
-    internal static var previews: some View {
+    static var previews: some View {
         ContentView()
     }
 

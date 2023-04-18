@@ -8,9 +8,9 @@
 import SwiftUI
 
 @main
-internal struct JobsDeviOSApp: App {
+struct JobsDeviOSApp: App {
 
-    internal var body: some Scene {
+    var body: some Scene {
         WindowGroup {
             ContentView()
         }

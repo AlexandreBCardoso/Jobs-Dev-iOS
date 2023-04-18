@@ -5,10 +5,10 @@
 //  Created by Alexandre Cardoso on 13/04/23.
 //
 
-public struct Infra {
+struct Infra {
 
-    public private(set) var text = "Hello, World!"
+    private(set) var text = "Hello, World!"
 
-    public init() { }
+    init() { }
 
 }

@@ -8,9 +8,9 @@
 @testable import Infra
 import XCTest
 
-internal final class InfraTests: XCTestCase {
+final class InfraTests: XCTestCase {
 
-    internal func testExample() {
+    func testExample() {
         XCTAssertEqual(Infra().text, "Hello, World!")
     }
 
