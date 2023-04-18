@@ -11,6 +11,7 @@
 		BC453F3A29E0783B007C647D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC453F3929E0783B007C647D /* ContentView.swift */; };
 		BC453F3C29E0783C007C647D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC453F3B29E0783C007C647D /* Assets.xcassets */; };
 		BC453F3F29E0783C007C647D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC453F3E29E0783C007C647D /* Preview Assets.xcassets */; };
+		BCB1EF0329E8D03800F36932 /* Infra in Frameworks */ = {isa = PBXBuildFile; productRef = BCB1EF0229E8D03800F36932 /* Infra */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BC453F3929E0783B007C647D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BC453F3B29E0783C007C647D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC453F3E29E0783C007C647D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BCB1EEFC29E8CC3200F36932 /* Infra */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Infra; path = JobsDeviOS/Infra; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCB1EF0329E8D03800F36932 /* Infra in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,8 +38,10 @@
 		BC453F2B29E0783B007C647D = {
 			isa = PBXGroup;
 			children = (
+				BCB1EEFC29E8CC3200F36932 /* Infra */,
 				BC453F3629E0783B007C647D /* JobsDeviOS */,
 				BC453F3529E0783B007C647D /* Products */,
+				BCB1EEFD29E8CF6C00F36932 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,6 +80,13 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		BCB1EEFD29E8CF6C00F36932 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,6 +103,9 @@
 			dependencies = (
 			);
 			name = JobsDeviOS;
+			packageProductDependencies = (
+				BCB1EF0229E8D03800F36932 /* Infra */,
+			);
 			productName = JobsDeviOS;
 			productReference = BC453F3429E0783B007C647D /* JobsDeviOS.app */;
 			productType = "com.apple.product-type.application";
@@ -351,6 +366,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BCB1EF0229E8D03800F36932 /* Infra */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Infra;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BC453F2C29E0783B007C647D /* Project object */;
 }
