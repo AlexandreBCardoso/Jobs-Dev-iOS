@@ -45,7 +45,6 @@ opt_in_rules:
     - sorted_first_last
     - yoda_condition
     - legacy_multiple
-    - explicit_acl
     - anyobject_protocol
     - collection_alignment
     - contains_over_filter_count
@@ -147,10 +146,6 @@ empty_count: error
 legacy_constant: error
 trailing_newline: error
 trailing_semicolon: error
-
-
-explicit_acl:
-    severity: error
 
 
 custom_rules:
